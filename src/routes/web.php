@@ -1,5 +1,5 @@
 <?php
 
 Route::get('/releasenotes', function () {
-    return "hello world";
+    return view('releasenotes::notes');
 });
