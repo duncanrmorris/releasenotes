@@ -1,0 +1,14 @@
+{
+    "name": "duncanrmorris/releasenotes",
+    "description": "The Release Notes module for Laravel framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Duncan Morris",
+            "email": "duncanmorris07@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
