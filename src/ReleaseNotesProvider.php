@@ -14,7 +14,6 @@ class ReleaseNotesProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/config/releasenotes.php','releasenotes');
         $this->publishes([
             __DIR__.'/config/releasenotes.php' => config_path('releasenotes.php'),
-            __DIR__.'/Http/Controllers/ReleaseNotesController.php' => controller_path('ReleaseNotesController.php'),
         ]);
     }
 
