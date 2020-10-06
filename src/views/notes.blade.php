@@ -10,7 +10,8 @@
         <div class="row">
 
             <div class="col-md-12 text-white">
-                @markdown($file->body)
+               <h1>Release Notes Version xx</h1>
+               
 
                
             </div>
