@@ -1,11 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Release Notes</title>
-    </head>
+@extends('layouts.app', [
+    'class' => '',
+    'elementActive' => 'release-notes'
+])
 
-    <body>
-        <h1>Welcome to the release notes</h1>
-    </body>
+@section('content')
+    <div class="content">
+    @include('layouts.alerts')
 
-</html>
+        <div class="row">
+
+            <div class="col-md-12 text-white">
+               <h1>Release Notes Version 1.3</h1>
+
+               
+            </div>
+        </div>
+
+    </div>
+
+        
+@endsection
+
+@push('scripts')
+   
+@endpush

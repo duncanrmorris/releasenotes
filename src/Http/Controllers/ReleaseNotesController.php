@@ -11,6 +11,7 @@ class ReleaseNotesController extends Controller
 
     public function index()
     {
+     
         
         return view('releasenotes::notes');
     }
