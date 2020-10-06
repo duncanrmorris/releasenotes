@@ -12,9 +12,7 @@ class ReleaseNotesController extends Controller
     public function index()
     {
      
-        $notes = require(base_path('documentation/'.config('releasenotes.filename')));
-
-        return view('releasenotes.notes',['file' => $notes]);
+        return view('releasenotes.notes');
     }
 
 }
